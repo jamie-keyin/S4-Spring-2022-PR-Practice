@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="S4-Spring-2022-PR-Practice" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="src" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
